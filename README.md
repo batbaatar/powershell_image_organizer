@@ -31,4 +31,7 @@ Feel free to send a pull requests and file issues.
 
 Nice to have
 1. test
-2. combine rename_photos_better.ps1 and dedupe_suspect_duplicates.ps1 to one script.
+2. all delete operation moves to a temporary folder or recycle bin
+3. combine rename_photos_better.ps1 and dedupe_suspect_duplicates.ps1 to one script
+4. or a one goliath script that combines all of the above
+5. a way to give users a confidence that the script will not do harms
