@@ -10,7 +10,7 @@ $all = Get-ChildItem -Filter "*.jpg" -File
 $loc = Get-Location
 # Safe mode creates a folder with a file name and moves the original and duplicates to it.
 # If False, it deletes the duplicates
-$safe_mode = $False
+$safe_mode = $True
 
 $counter = 0;
 
