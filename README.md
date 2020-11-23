@@ -6,6 +6,7 @@ my portable drive was accidently formatted and all the images lost their directo
 1. rename_photos_better.ps1
 
 this script can help you to rename the photos to yyyy-MM-dd-HH-mm-ss_bytes format. The last bytes could help you to manually deduplicate.
+ - use dedupe_suspect_duplicates.ps1 to remove duplicates automatically.
 
 2. organize_by_non_camera_source.ps1
 
@@ -13,7 +14,7 @@ if you had tons of images from non-camera source like downloaded, saved images f
 
 3. dedupe_similar_images.ps1
 
-this is a bit hardcore but could save you tons of time, use it with caution. if you notice large number of duplicate photos, you could use this to remove them. start with a safe mode to verify if the tool is detecting duplicates correctly. the comparison is based on imagemagick's "compare" option.
+this is a bit hardcore but could save you tons of time, use it with caution. useful when near identical images have same size but the dates differ. start with a safe mode to verify if the tool is detecting duplicates correctly. the comparison is based on imagemagick's "compare" option.
 
 4. organize_photos_to_yyyy_mm.ps1
 
@@ -24,6 +25,10 @@ move your photos to year-month folders based on when the images were created.
 if there are images came from different sources within a same folder and you want them classify, you could try to organize by the camera makes. this creates a folder named by the camera make and moves the images accordingly.
 
 
-Use at your own risk.
+Use at your own risk!!!
 
 Feel free to send a pull requests and file issues.
+
+Nice to have
+1. test
+2. combine rename_photos_better.ps1 and dedupe_suspect_duplicates.ps1 to one script.
