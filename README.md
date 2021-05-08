@@ -1,4 +1,4 @@
-# powershellimageorganizer
+# PowerShell Image Organizer
 a set of tools to help you organize your images using powershell.
 
 my portable drive was accidently formatted and all the images lost their directory structure and names. these set of scripts helped me a bit to organize.
